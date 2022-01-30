@@ -4,13 +4,13 @@ This aplication helps people, especialy parents to recognize what type of food p
 
 ## Technology and tools used in the project: 
 
-*Python 3.9
-*pip 22.01
-*Django 3.2.11
-*PostgresSQL 14.1
-*PgAdmin
-*operation system  - Windows 10
-* tool: Visual Studio Code
+- Python 3.9
+- pip 22.01
+- Django 3.2.11
+- PostgresSQL 14.1
+- PgAdmin
+- operation system  - Windows 10
+- tool: Visual Studio Code
 
 ## Setup
 
