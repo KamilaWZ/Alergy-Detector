@@ -9,6 +9,7 @@ This aplication helps people, especialy parents to recognize what type of food p
 - Django 3.2.11
 - PostgresSQL 14.1
 - PgAdmin
+- psycopg 2-2.9.3
 - operation system  - Windows 10
 - tool: Visual Studio Code
 
@@ -28,6 +29,7 @@ To run this project, install it loccaly with following instruction:
 - be sure you have installed actual pip package. You may use python -m pip install --upgrade pip
 - with using your code editor create file named requirements.txt in alergydetector direction. In this file save the text: Django~=3.2.10
 - run pip install -r requirements.txt command to install Django
+run pip install psycopg2
 - stay in alergydetector direction. In your command line run django-admin.exe startproject alergydetector .    Be sure You have white space before point. 
 - create first table in date base in direction alergydetecor with command python manage.py migrate 
 - run server with command python manage.py runserver 
