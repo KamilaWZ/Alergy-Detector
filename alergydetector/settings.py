@@ -31,7 +31,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    
     'Meals.apps.MealsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -78,10 +77,10 @@ WSGI_APPLICATION = 'alergydetector.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'Alergydetector', 
-        'USER': 'postgres', 
+        'NAME': 'Alergydetector',
+        'USER': 'postgres',
         'PASSWORD': 'Ja1234',
-        'HOST': '127.0.0.1', 
+        'HOST': '127.0.0.1',
         'PORT': '5432',
     }
 }
