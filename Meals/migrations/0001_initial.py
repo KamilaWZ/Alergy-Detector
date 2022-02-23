@@ -16,7 +16,8 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=100)),
-                ('allergy_potential', models.IntegerField(default=1)),
+                ('allergy_potential', models.IntegerField(default=1, blank=False)),
+                ('date_pub', models.DateTimeField(blank = False)),
             ],
         ),
     ]
