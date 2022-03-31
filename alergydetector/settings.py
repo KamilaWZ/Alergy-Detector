@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'Meals.apps.MealsConfig',
+    'alergy_detector.app.AlergyDetectorConfig'
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
