@@ -9,12 +9,13 @@ class Ingredients(models.Model):
     alergy_potential = models.PositiveSmallIntegerField(blank=False, choices = potential_choices),
     eating_day = models.DateField(blank = False)
     eating_hour = models.TimeField(blank = False)
-    relation_with = models.ForeignKey('Meals', on_delete=CASCADE)
+    ingredient_rel = models.ManyToManyField('Meals', on_delete=CASCADE)
     
     
 class Meal(models.Model):
     meal_name = models.CharField(max_length=200, blank=False)
     description = models.TextField(blank = True, default=meal_name)
+    meal_rel = models.ManyToManyField('Ingredient', on_delete=CASCADE)
 
 
 def __str__(self):
